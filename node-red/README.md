@@ -229,7 +229,7 @@ hass.io 的Node-Red插件 支持启动安装系统组件
     }
     ```
 
-4. (可选) 开启SSL(HTTPS)支持请将ssl设置为true
+4. (可选) 开启SSL(HTTPS)支持请将ssl设置为true
     ```json
     {
     "log_level": "info",
