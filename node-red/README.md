@@ -179,14 +179,14 @@ Please use [Github Issues](https://github.com/charleyzhu/hassio-addons/issues) f
 #### Initial Release
 
 # 中文
-## 简介
-hass.io 的Node-Red插件 支持启动安装系统组件
+## 简介
+hass.io 的Node-Red插件 支持启动安装系统组件
 
 如果你感觉这个组件对你有所帮助请赐我根烟 :）
 
 ![Donation](https://raw.githubusercontent.com/charleyzhu/HomeAssistant_Components/master/Images/Donation.png)
 
-# 安装
+# 安装
 
 1. 在hass.io 的 ADD-ON STORE 选项卡添加我的插件仓库 (https://github.com/charleyzhu/hassio-addons)
 2. 选择 Node-Red 组件安装
@@ -229,7 +229,7 @@ Please use [Github Issues](https://github.com/charleyzhu/hassio-addons/issues) f
     }
     ```
 
-4. (可选) 开启SSL(HTTPS)支持请将ssl设置为true
+4. (可选) 开启SSL(HTTPS)支持请将ssl设置为true
     ```json
     {
     "log_level": "info",
@@ -260,7 +260,7 @@ Please use [Github Issues](https://github.com/charleyzhu/hassio-addons/issues) f
     "projects": false
     }
     ```
-5. (可选) 如果你想禁用Web页面的用户认证请删除users数组中的对象来禁用验证，如下
+5. (可选) 如果你想禁用Web页面的用户认证请删除users数组中的对象来禁用验证，如下
     ```json
     {
     "ssl": true,
@@ -350,7 +350,7 @@ Please use [Github Issues](https://github.com/charleyzhu/hassio-addons/issues) f
 
 ## 反馈
 
-如果你是使用中遇到了问题请到 [BBS](https://bbs.hassbian.com/thread-3065-1-1.html) 反馈
+如果你使用中遇到了问题请到 [BBS](https://bbs.hassbian.com/thread-3065-1-1.html) 反馈
 
 ## 更新日志
 
