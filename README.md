@@ -15,14 +15,14 @@ Add my Repository (https://github.com/charleyzhu/hassio-addons) To your Hass.io
 1. [Node-Red](https://github.com/charleyzhu/hassio-addons/tree/master/node-red)
 
 # 中文
-## 简介
-hass.io组件仓库
+## 简介
+hass.io组件仓库
 
 如果你感觉这个组件仓库对你有所帮助请赐我根烟 :）
 
 ![Donation](https://raw.githubusercontent.com/charleyzhu/HomeAssistant_Components/master/Images/Donation.png)
 
-# 安装
+# 安装
 
 1. 在hass.io 的 ADD-ON STORE 选项卡添加我的插件仓库 (https://github.com/charleyzhu/hassio-addons)
 
