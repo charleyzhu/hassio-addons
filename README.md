@@ -11,8 +11,8 @@ if you like what you're seeing! give me a smoke,tks. :)
 
 Add my Repository (https://github.com/charleyzhu/hassio-addons) To your Hass.io
 
-# hass.io Addons List
-1. [Node-Red]()
+# This Repository Addons List
+1. [Node-Red](https://github.com/charleyzhu/hassio-addons/tree/master/node-red)
 
 # 中文
 ## 简介
@@ -25,3 +25,6 @@ Add my Repository (https://github.com/charleyzhu/hassio-addons) To your Hass.io
 # 安装
 
 1. 在hass.io 的 ADD-ON STORE 选项卡添加我的插件仓库 (https://github.com/charleyzhu/hassio-addons)
+
+# 此仓库插件列表
+1. [Node-Red](https://github.com/charleyzhu/hassio-addons/tree/master/node-red)
