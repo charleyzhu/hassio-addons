@@ -75,5 +75,5 @@
     "LOG_FORMAT": "{LEVEL}: {MESSAGE}",
     "SUPERVISOR_VERSION": ">=0.82.0"
   },
-  "image": "djcash/{arch}-node-red-homekit"
+  "image": "djcash/node-red-homekit-{arch}"
 }
