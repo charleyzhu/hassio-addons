@@ -1,0 +1,20 @@
+#!/usr/bin/with-contenv bash
+# ==============================================================================
+# Community Hass.io Add-ons: Hode-Red
+# Starts the Hode-Red daemon
+# ==============================================================================
+# shellcheck disable=SC1091
+source /usr/lib/hassio-addons/base.sh
+
+# Wait for Avahi to become available
+s6-svwait -u -t 5000 /var/run/s6/services/avahi
+
+# Wait at least 5 seconds before staring Hode-Red
+# Avahi might need some time.
+sleep 5
+
+if hass.debug; then
+  exec node-red -v --userDir /share/node-red
+else
+  exec node-red --userDir /share/node-red
+fi

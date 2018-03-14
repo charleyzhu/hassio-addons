@@ -1,0 +1,79 @@
+{
+  "name": "Node-Red",
+  "version": "0.1.0",
+  "slug": "nodered",
+  "description": "Hass.io Addons Node-red support Custom Package",
+  "url": "http://bbs.hassbian.com",
+  "startup": "application",
+  "boot": "auto",
+  "hassio_api": true,
+  "host_network": true,
+  "privileged": [],
+  "map": [
+    "share:rw",
+    "ssl"
+  ],
+  "options": {
+    "log_level": "info",
+    "avahi_interfaces": "",
+    "avahi_hostname": "",
+    "avahi_domainname": "local",
+    "enable_ipv6": true,
+    "boot_commands": [],
+    "packages": [],
+    "init_commands": [],
+    "plugins": [],
+    
+    "ssl": false,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem",
+    "users": [
+      {
+        "username": "admin",
+        "password": "password",
+        "permissions": "*"
+      }
+    ],
+    "http_node_user": [
+      {
+        "username": "admin",
+        "password": "password"
+      }
+    ],
+    "projects": false
+  },
+  "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+    "avahi_interfaces": "str",
+    "avahi_hostname": "str",
+    "avahi_domainname": "str",
+    "enable_ipv6": "bool",
+    "boot_commands": ["str"],
+    "packages": ["str"],
+    "init_commands": ["str"],
+    "plugins": ["str"],
+    "ssl": "bool",
+    "certfile": "str",
+    "keyfile": "str",
+    "users": [
+      {
+        "username": "str",
+        "password": "str",
+        "permissions": "str"
+      }
+    ],
+    "http_node_user": [
+      {
+        "username": "str",
+        "password": "str"
+      }
+    ],
+    "projects": "bool"
+
+  },
+  "environment": {
+    "LOG_FORMAT": "{LEVEL}: {MESSAGE}",
+    "SUPERVISOR_VERSION": ">=0.82.0"
+  },
+  "image": "djcash/{arch}-node-red-homekit"
+}
