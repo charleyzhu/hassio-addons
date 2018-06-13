@@ -53,7 +53,7 @@ LABEL \
     org.label-schema.description="Hass.io Addons Node-red support HomeKit" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="NodeRed" \
-    org.label-schema.schema-version="0.1.0" \
+    org.label-schema.schema-version="0.1.1" \
     org.label-schema.url="http://bbs.hassbian.com" \
     org.label-schema.usage="http://bbs.hassbian.com" \
     org.label-schema.vcs-ref=${BUILD_REF} \
